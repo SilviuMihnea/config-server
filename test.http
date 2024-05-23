@@ -1,0 +1,18 @@
+### property-precedence no profile (default), no label
+GET http://localhost:8888/property-precedence/default
+
+### property-precedence no profile (default), main label
+GET http://localhost:8888/property-precedence/default/main
+
+### property-precedence on dev profile with no label
+GET http://localhost:8888/property-precedence/profile1,profile2
+
+### property-precedence on dev profile with no label
+GET http://localhost:8888/property-precedence/profile1,profile2/main
+
+### property-precedence on dev profile with 1.1 label
+GET http://localhost:8888/property-precedence/dev/1.1
+
+### Stealing your precious property
+
+GET http://localhost:8888/hahaha/dev
